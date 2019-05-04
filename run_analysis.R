@@ -105,7 +105,6 @@ print("Q5 : Average of each variable for each activity and each subject - OK")
 print("Step 5 set to variable df_averages")
 print("Waiting ...")
 
-
 print("End")
 
 
