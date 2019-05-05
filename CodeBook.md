@@ -58,9 +58,8 @@ The final and unique script to perform the tidy data set results is ```run_analy
   * For each of the 66 measurement variables in ```df```, means by activity and by subject
  
  
- 
- This work has been performed with RStudio Version 1.1.463 on Mac OS X 10.14.4
- Using ```library(dplyr)```
- 
- Public Repo : https://github.com/affagard/datacoursera_uci_har
+ ## Terms
+  * This work has been performed with RStudio Version 1.1.463 on Mac OS X 10.14.4
+  * Dependencies : ```library(dplyr)```
+  * Public Repo : https://github.com/affagard/datacoursera_uci_har
  
