@@ -1,5 +1,8 @@
 library(dplyr)
 
+## Getting and Cleaning Data Course Project
+## Results : df and df_averages
+
 print("Waiting ...")
 
 ## Get activity codes from "raw/train/y_train.txt", set to train_activities
