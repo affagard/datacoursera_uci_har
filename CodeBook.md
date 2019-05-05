@@ -15,7 +15,7 @@ All details and references about experiments in ```/raw/README.txt```
 ## Raw data input
 All raw data are in the folder ```/raw```
 Experiments are divided into 6 activities and into 2 subjects called ```test```and ```train```
-Files used in the final script
+### Files used in script 
  * ```/raw/train/train/X_train.txt``` : measurements for 561 variables (called features) for train
  * ```/raw/train/train/y_train.txt``` : activities for each measurement for train
  * ```/raw/test/test/X_test.txt``` : measurements for 561 variables (called features) for test
