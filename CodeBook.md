@@ -51,7 +51,7 @@ The final and unique script to perform the tidy data set results is ```run_analy
  10299 obs. of  68 variables (only variables that are mean or standard deviation)
   * ```activity``` : Factor, 6 levels "standing", "sitting", "laying", "walking", "walking_downstairs", "walking_upstairs"
   * ```subject``` : Character, "test" or "train"
-  * ```tbodyacc.mean.x``` to ```fbodybodygyrojerkmag.std``` : Numeric, 66 variables corresponding to 66 measurements
+  * ```tbodyacc.mean.x``` to ```fbodybodygyrojerkmag.std``` : Numeric, 66 variables corresponding to 66 measured parameters
   
  ### df_averages
  12 obs. of  68 variables
