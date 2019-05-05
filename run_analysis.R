@@ -1,24 +1,21 @@
 library(dplyr)
 
-filename <- "getdata_dataset.zip"
+## Getting and Cleaning Data Course Project
+## Results : df and df_averages
 
-## Download and unzip the dataset:
-if (!file.exists(filename)){
-
+## Data source
+if (!file.exists("getdata_dataset.zip")){
         print("Waiting while dowloading zipped data source ...")
         fileURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip "
         download.file(fileURL, filename, method="curl")
 }  
 if (!file.exists("UCI HAR Dataset")) { 
-        unzip(filename) 
+        unzip("getdata_dataset.zip") 
 }
-
-## Getting and Cleaning Data Course Project
-## Results : df and df_averages
 
 print("Waiting ...")
 
-## Read features.txt and set to data frame features
+## Read features.txt and set to data frame features with informations about variable that are mean and standard deviation
 features <- tbl_df(read.delim("UCI HAR Dataset/features.txt", header = FALSE, sep = "", quote = "\"", dec = ".", fill = TRUE, comment.char = ""))
 features$name <- features$V2
 features$name <- gsub("\\(\\)","",features$name)
