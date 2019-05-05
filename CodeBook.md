@@ -9,21 +9,21 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 Raw data came from the Human Activity Recognition Using Smartphones Dataset (www.smartlab.ws) in Genova.
 Captures of raw data have been made with people wearing a Samsung Galaxy S II smartphone during several set of experimentations.
-Initial pre-processed data for the project are in the ```/raw``` folder as they were deliver to perform the project.
-All details and references about experiments in ```/raw/README.txt```
+Initial pre-processed data for the project are in the ```/UCI HAR Dataset``` folder as they were deliver to perform the project.
+All details and references about experiments in ```/UCI HAR Dataset/README.txt```
 
-## Raw data input
-All raw data are in the folder ```/raw```
+## Raw data input from Data source
+All raw data are in the folder ```/UCI HAR Dataset```
 Experiments are divided into 6 activities and into 2 subjects called ```test```and ```train```
 #### Files used in script 
- * ```/raw/train/subject_train.txt``` : IDs of subject (natural persons participating in experiments) during train session
- * ```/raw/train/X_train.txt``` : measurements for 561 variables (called features) for train
- * ```/raw/train/y_train.txt``` : activities for each measurement for train
- * ```/raw/test/subject_test.txt``` : IDs of subject (natural persons participating in experiments) during test session
- * ```/raw/test/X_test.txt``` : measurements for 561 variables (called features) for test
- * ```/raw/test/y_test.txt``` : activities for each measurement for test
- * ```/raw/features.txt``` : Names of the 561 measured varibles
- * ```/raw/activity_labels.txt``` : Names of the 6 activities
+ * ```/UCI HAR Dataset/train/subject_train.txt``` : IDs of subject (natural persons participating in experiments) during train session
+ * ```/UCI HAR Dataset/train/X_train.txt``` : measurements for 561 variables (called features) for train
+ * ```/UCI HAR Dataset/train/y_train.txt``` : activities for each measurement for train
+ * ```/UCI HAR Dataset/test/subject_test.txt``` : IDs of subject (natural persons participating in experiments) during test session
+ * ```/UCI HAR Dataset/test/X_test.txt``` : measurements for 561 variables (called features) for test
+ * ```/UCI HAR Dataset/test/y_test.txt``` : activities for each measurement for test
+ * ```/UCI HAR Dataset/features.txt``` : Names of the 561 measured varibles
+ * ```/UCI HAR Dataset/activity_labels.txt``` : Names of the 6 activities
  
  
 

@@ -10,8 +10,8 @@ Create an R script called run_analysis.R to set 2 tidy data sets.
 ## Data source
 Raw data came from the Human Activity Recognition Using Smartphones Dataset (www.smartlab.ws) in Genova.
 Captures of raw data have been made with people wearing a Samsung Galaxy S II smartphone during several set of experimentations.
-Initial pre-processed data for the project are in the ```/raw``` folder as they were deliver to perform the project.
-All details and references about experiments in ```/raw/README.txt```
+Initial pre-processed data for the project are in the ```/UCI HAR Dataset``` folder as they were deliver to perform the project.
+All details and references about experiments in ```/UCI HAR Dataset/README.txt```
 
 ## Processing of the project
 5 steps to create 2 tidy data sets and a unique script to perform them
