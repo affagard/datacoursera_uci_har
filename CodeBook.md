@@ -124,6 +124,8 @@ The final and unique script to perform the tidy data set results is ```run_analy
   
  ### df_averages
  180 obs. of  68 variables
+  * ```subject``` : Numeric, IDs of natural persons participating in experiments
+  * ```activity``` : Factor, 6 levels "standing", "sitting", "laying", "walking", "walking_downstairs", "walking_upstairs"
   * For each of the 66 measurement variables in ```df```, means by subject and by activity
   * Result in file ```tidy.dataset.txt```
  
