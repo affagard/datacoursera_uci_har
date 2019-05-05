@@ -25,12 +25,12 @@ Initial pre-processed data for the project are in the raw folder as they were de
 ## Result
 The final and unique script to perform the tidy data set results is run_analysis.R
 
-run_analysis.R creates 2 dataframe variables
- * df : a tidy data set in a dataframe variable performed with steps 1 to 4 of the project. Steps are tagged with comments inside script.
- * df_averages : a tidy data set in a dataframe variable performed with the final step 5 of the project
+```run_analysis.R``` creates 2 dataframe variables
+ * ```df``` : a tidy data set in a dataframe variable performed with steps 1 to 4 of the project. Steps are tagged with comments inside script.
+ * ```df_averages``` : a tidy data set in a dataframe variable performed with the final step 5 of the project
 
-df_averages is exported in an independant file : tidy.dataset.txt
- * Exported via write.table()
- * row.names = FALSE
+```df_averages``` is exported in an independant file : ```tidy.dataset.txt```
+ * Exported via ```write.table()``` function
+ * ```row.names = FALSE```
  
  
