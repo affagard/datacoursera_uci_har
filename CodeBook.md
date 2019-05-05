@@ -1,17 +1,29 @@
-# Coursera : Getting and Cleaning Data Course Project
+# Code Book
+Getting and Cleaning Data Course Project
 
-## Repo
-named : datacoursera_uci_har
-
-## Aim of this Course Project
-
-Create an R script called run_analysis.R to set 2 tidy data sets.
+## Subject
+Data set and the script to process two new tidy data sets from several data source files 
 
 ## Data source
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
 Raw data came from the Human Activity Recognition Using Smartphones Dataset (www.smartlab.ws) in Genova.
 Captures of raw data have been made with people wearing a Samsung Galaxy S II smartphone during several set of experimentations.
 Initial pre-processed data for the project are in the ```/raw``` folder as they were deliver to perform the project.
 All details and references about experiments in ```/raw/README.txt```
+
+## Raw data input
+All raw data are in the folder ```/raw```
+Experiments are divided into 6 activities and into 2 subjects called ```test```and ```train```
+Files used in the final script
+ * ```/raw/train/train/X_train.txt``` : measurements for 561 variables (called features) for train
+ * ```/raw/train/train/y_train.txt``` : activities for each measurement for train
+ * ```/raw/test/test/X_test.txt``` : measurements for 561 variables (called features) for test
+ * ```/raw/test/test/y_test.txt``` : activities for each measurement for test
+ * ```/raw/features.txt``` : Names of the 561 measured varibles
+ * ```/raw/activity_labels.txt``` : Names of the 6 activities
+ 
+ 
 
 ## Processing of the project
 5 steps to create 2 tidy data sets and a unique script to perform them
@@ -34,6 +46,12 @@ The final and unique script to perform the tidy data set results is ```run_analy
  * Exported via ```write.table()``` function
  * ```row.names = FALSE```
  
+ ## Data set result
+ 
+ 
+ 
+ 
  This work has been performed with RStudio Version 1.1.463 on Mac OS X 10.14.4
  Using ```library(dplyr)```
+ Public Repo : https://github.com/affagard/datacoursera_uci_har
  
