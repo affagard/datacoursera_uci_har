@@ -15,11 +15,11 @@ Initial pre-processed data for the project are in the raw folder as they were de
 ## Processing of the project
 5 steps to create 2 tidy data sets and a unique script to perform them
 
-Q1 : Merges the training and the test sets to create one data set.
-Q2 : Extracts only the measurements on the mean and standard deviation for each measurement.
-Q3 : Uses descriptive activity names to name the activities in the data set.
-Q4 : Appropriately labels the data set with descriptive variable names.
-Q5 : Average of each variable for each activity and each subject.
+ * Q1 : Merges the training and the test sets to create one data set.
+ * Q2 : Extracts only the measurements on the mean and standard deviation for each measurement.
+ * Q3 : Uses descriptive activity names to name the activities in the data set.
+ * Q4 : Appropriately labels the data set with descriptive variable names.
+ * Q5 : Average of each variable for each activity and each subject.
 
 
 ## Result
