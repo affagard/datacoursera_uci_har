@@ -36,7 +36,7 @@ Files used in the final script
 
 
 ## Result
-The final and unique script to perform the tidy data set results is ```run_analysis.R``
+The final and unique script to perform the tidy data set results is ```run_analysis.R```
 
 ```run_analysis.R``` creates 2 dataframe variables
  * ```df``` : a tidy data set in a dataframe variable performed with steps 1 to 4 of the project. Steps are tagged with comments inside script.
@@ -47,11 +47,16 @@ The final and unique script to perform the tidy data set results is ```run_analy
  * ```row.names = FALSE```
  
  ## Data set result
- 
+ ### df
+  * ```activity``` : char, 
+  * ```subject``` :
+ ### df_averages
+  * For each varibale of ```df```, means by activity and by subject 
  
  
  
  This work has been performed with RStudio Version 1.1.463 on Mac OS X 10.14.4
  Using ```library(dplyr)```
+ 
  Public Repo : https://github.com/affagard/datacoursera_uci_har
  
