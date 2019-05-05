@@ -56,6 +56,7 @@ The final and unique script to perform the tidy data set results is ```run_analy
  ### df_averages
  12 obs. of  68 variables
   * For each of the 66 measurement variables in ```df```, means by activity and by subject
+  * Result in file ```tidy.dataset.txt```
  
  
  ## Terms
