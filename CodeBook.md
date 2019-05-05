@@ -16,10 +16,12 @@ All details and references about experiments in ```/raw/README.txt```
 All raw data are in the folder ```/raw```
 Experiments are divided into 6 activities and into 2 subjects called ```test```and ```train```
 #### Files used in script 
- * ```/raw/train/train/X_train.txt``` : measurements for 561 variables (called features) for train
- * ```/raw/train/train/y_train.txt``` : activities for each measurement for train
- * ```/raw/test/test/X_test.txt``` : measurements for 561 variables (called features) for test
- * ```/raw/test/test/y_test.txt``` : activities for each measurement for test
+ * ```/raw/train/subject_train.txt``` : IDs of subject (natural persons participating in experiments) during train session
+ * ```/raw/train/X_train.txt``` : measurements for 561 variables (called features) for train
+ * ```/raw/train/y_train.txt``` : activities for each measurement for train
+ * ```/raw/test/subject_test.txt``` : IDs of subject (natural persons participating in experiments) during test session
+ * ```/raw/test/X_test.txt``` : measurements for 561 variables (called features) for test
+ * ```/raw/test/y_test.txt``` : activities for each measurement for test
  * ```/raw/features.txt``` : Names of the 561 measured varibles
  * ```/raw/activity_labels.txt``` : Names of the 6 activities
  
@@ -49,13 +51,14 @@ The final and unique script to perform the tidy data set results is ```run_analy
  ## Data set result
  ### df
  10299 obs. of  68 variables (only variables that are mean or standard deviation)
+  * ```subject``` : Numeric, IDs of natural persons participating in experiments
   * ```activity``` : Factor, 6 levels "standing", "sitting", "laying", "walking", "walking_downstairs", "walking_upstairs"
-  * ```subject``` : Character, "test" or "train"
   * ```tbodyacc.mean.x``` to ```fbodybodygyrojerkmag.std``` : Numeric, 66 variables corresponding to 66 measured parameters
+  * Meanfreq() variable and angle() variable including Meanfreq() are not considered as mean() variable, so I dropped these columns 
   
  ### df_averages
- 12 obs. of  68 variables
-  * For each of the 66 measurement variables in ```df```, means by activity and by subject
+ 180 obs. of  68 variables
+  * For each of the 66 measurement variables in ```df```, means by subject and by activity
   * Result in file ```tidy.dataset.txt```
  
  
