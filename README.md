@@ -8,6 +8,8 @@ named : datacoursera_uci_har
 Create an R script called run_analysis.R to set 2 tidy data sets.
 
 ## Data source
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
 Raw data came from the Human Activity Recognition Using Smartphones Dataset (www.smartlab.ws) in Genova.
 Captures of raw data have been made with people wearing a Samsung Galaxy S II smartphone during several set of experimentations.
 Initial pre-processed data for the project are in the ```/UCI HAR Dataset``` folder as they were deliver to perform the project.
