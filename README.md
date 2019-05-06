@@ -1,7 +1,6 @@
 # Coursera : Getting and Cleaning Data Course Project
 
-## Repo
-named : datacoursera_uci_har
+## Repo : datacoursera_uci_har
 https://github.com/affagard/datacoursera_uci_har/
 
 ## Aim of this Course Project
