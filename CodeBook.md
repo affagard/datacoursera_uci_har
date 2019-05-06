@@ -14,7 +14,7 @@ All details and references about experiments in ```/UCI HAR Dataset/README.txt``
 
 ## Raw data input from Data source
 All raw data are in the folder ```/UCI HAR Dataset```
-Experiments are divided into 6 activities and into 2 subjects called ```test```and ```train```
+Experiments are divided into 6 activities for 30 natural persons ("subjects")
 #### Files used in script 
  * ```/UCI HAR Dataset/train/subject_train.txt``` : IDs of subject (natural persons participating in experiments) during train session
  * ```/UCI HAR Dataset/train/X_train.txt``` : measurements for 561 variables (called features) for train
