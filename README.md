@@ -2,6 +2,7 @@
 
 ## Repo
 named : datacoursera_uci_har
+https://github.com/affagard/datacoursera_uci_har/
 
 ## Aim of this Course Project
 
